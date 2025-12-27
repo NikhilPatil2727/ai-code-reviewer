@@ -4,7 +4,7 @@
   "publisher": "nikhil27",
   "description": "AI-powered code reviewer that fixes bugs, security issues, and code quality",
   "icon": "logo.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.107.0"
   },
