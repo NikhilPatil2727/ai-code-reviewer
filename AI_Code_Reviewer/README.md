@@ -16,6 +16,17 @@ Large or multiple folders can cause:
 
 ---
 
+## ⚠️ AI Usage Guidelines
+
+- Always **review the AI-generated code before using it**
+- Do **not blindly trust AI output**
+- Validate logic, security, and performance
+- Test the code in your environment before deploying
+
+> ⚡ Think of AI as a **helper, not a replacement for your judgment**
+
+---
+
 ## ▶️ How to Use
 
 ### 1️⃣ Open Your Project Folder
@@ -29,17 +40,9 @@ Open **one** project folder in VS Code.
 Open **Settings** (`Ctrl + ,`)  
 Search for: `aiCodeReviewer.apiKey`  
 
+Add your API key:
 
-
+```json
 {
   "aiCodeReviewer.apiKey": "YOUR_GEMINI_API_KEY"
 }
-
----
-### 3️⃣ Run the Extension
-
-Press Ctrl + Shift + P
-
-Run the command:
-
-AI Code Reviewer: Review Current Folder
